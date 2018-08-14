@@ -3,7 +3,7 @@ import model.Person;
 import java.util.Arrays;
 import java.util.List;
 
-public class KodeMoro {
+public class KodeMoroJava8 {
 
     public static void main(String[] args) {
         List<Person> personer = Arrays.asList(
@@ -17,20 +17,14 @@ public class KodeMoro {
                 new Person("Valentina", "Teresjkova", 81)
         );
 
-        //Del 1 - Java 7 style
-        //1.1: Sorter listen etter etternavn
-
-        //1.2: Lag en metode som printer alle elementene i listen
-
-        //1.3: Lag en metode som printer alle personene med fornavn som begynner på gitt bokstav
-
-
-
         //Del 2 - Java 8 style
         //2.1: Sorter listen etter etternavn
 
         //2.2: Lag en metode som printer alle elementene i listen
 
-        //2.3: Lag en metode som printer alle personene med fornavn som begynner på gitt bokstav
+        //2.3: Utvid print metoden til å benytte seg av vilkår (Condition) slik at man kan filtrere hva som printes
+        // Print for eksempel ut alle med fornavn som starter på en bokstav eller som er over en gitt alder etc.
+
     }
+
 }

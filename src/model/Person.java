@@ -34,4 +34,9 @@ public class Person {
     public void setAlder(int alder) {
         this.alder = alder;
     }
+
+    @Override
+    public String toString() {
+        return "Person: [Fornavn: " + fornavn + ", Etternavn: " + etternavn + ", Alder: " + alder + "]";
+    }
 }
